@@ -30,7 +30,7 @@
 		$titulo = "Consulta Presupuesto";
 		$mensaje = "Nombre: ".$nombre;
 		mail($correo,$titulo,$mensaje);
-		header("Location:inicio.php");
+		
 			
 	}
 	enviarcorreo();
