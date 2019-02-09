@@ -7,17 +7,18 @@
 
 </body>
 <?php
-	$nom=$_GET['nombre'];
-	$apellido=$_GET['apellidos'];
-	$tel=$_GET['numero'];
-	$mail=$_GET['correo'];
-	$origen=$_GET['origen'];
-	$destino=$_GET['destino'];
-	$fida=$_GET['fechaida'];
-	$fvuelta=$_GET['fechavuelta'];
-	$tipoPresu=$_GET['grupo1'];
+	
 	
 	function enviarcorreo(){
+		$nombre=$_GET['nombre'];
+		$apellido=$_GET['apellidos'];
+		$tel=$_GET['numero'];
+		$mail=$_GET['correo'];
+		$origen=$_GET['origen'];
+		$destino=$_GET['destino'];
+		$fida=$_GET['fechaida'];
+		$fvuelta=$_GET['fechavuelta'];
+		$tipoPresu=$_GET['grupo1'];
 		/*
 		$conn2 = mysqli_connect('localhost','xus','xus123');
 		mysqli_select_db($conn2, 'scrum2');
@@ -27,10 +28,10 @@
 			$uidNumber=$ema["uid"];
 		};-*/
 		$correo = "marcosav1996@gmail.com";
-		$titulo = "Consulta Presupuesto";
-		$mensaje = $_GET['nombre'];
+		$titulo = "Consulta Presupuesto ".$apellido;
+		$mensaje = "Nombre: ".$nombre."\n"."Apellidos; ".$apellido."\n"."Movil: ".$tel."\n"."Email: ".$mail."\n"."Pais/ciudad Origen: ".$origen."\n"."Pais/ciudad Destino: ".$destino."\n"."Fecha Ida: ".$fida."\n"."Fechas Vuelta: ".$fvuelta."\n"."Pasar Presupuesto: ".$tipoPresu;
 		mail($correo,$titulo,$mensaje);
-		
+		header("Location:inicio.php");
 			
 	}
 	enviarcorreo();
