@@ -7,7 +7,7 @@
 
 </body>
 <?php
-	$nombre=$_GET['nombre'];
+	$nom=$_GET['nombre'];
 	$apellido=$_GET['apellidos'];
 	$tel=$_GET['numero'];
 	$mail=$_GET['correo'];
@@ -28,7 +28,7 @@
 		};-*/
 		$correo = "marcosav1996@gmail.com";
 		$titulo = "Consulta Presupuesto";
-		$mensaje = $nombre;
+		$mensaje = $_GET['nombre'];
 		mail($correo,$titulo,$mensaje);
 		
 			
