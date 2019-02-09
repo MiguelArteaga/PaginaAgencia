@@ -27,9 +27,8 @@
  <nav>
     <div class="colorMenu nav-wrapper ">
       <ul id="nav-mobile" >
-        <li><a href="#"><b>Cont.</b></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=34634798138&text=Hola,%20necesito%20informaci%C3%B3n%20sobre%20un%20billete" ><img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png" height="35px" width="40px"> +34 634 798 138</a></li>
-        <li><a href="https://www.facebook.com/universo.travels.96" ><img src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png" height="40px" width="40px">Universo Travels</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=34634798138&text=Hola,%20necesito%20informaci%C3%B3n%20sobre%20un%20billete" ><img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png" height="30px" width="30px"> +34 634 798 138</a></li>
+        <li><a href="https://www.facebook.com/universo.travels.96" ><img src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png" height="30px" width="30px">Universo Travels</a></li>
       </ul>
     </div>
   </nav>
