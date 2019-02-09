@@ -37,7 +37,6 @@
 
 
 <div class="w3-row-padding " >
-
 <div class="w3-third w3-section ">
 <div class="w3-card-4">
 <img src="ofertasImagenes/fotoOferta1.jpg" style="width:100%">
@@ -124,8 +123,8 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 <?php
-  Include ("correo.php");
-   if(isset($_POST["consultar"])){
+   if(isset($_GET["consultar"])){
+     Include ("correo.php");
     enviarcorreo();
 
    }
