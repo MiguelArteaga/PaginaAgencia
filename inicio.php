@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Universo Travels</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,8 +25,8 @@
 </div>
 
  <nav>
-    <div class="colorMenu nav-wrapper">
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <div class="colorMenu nav-wrapper ">
+      <ul id="nav-mobile" >
         <li><a href="#"><b>Contactar</b></a></li>
         <li><a href="https://api.whatsapp.com/send?phone=34634798138&text=Hola,%20necesito%20informaci%C3%B3n%20sobre%20un%20billete" ><img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png" height="35px" width="40px"> +34 634 798 138</a></li>
         <li><a href="https://www.facebook.com/universo.travels.96" ><img src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png" height="40px" width="40px">Universo Travels</a></li>
@@ -37,7 +38,7 @@
 
 <div class="w3-row-padding " >
 
-<div class="divOfertas1 w3-third w3-section">
+<div class="w3-third w3-section ">
 <div class="w3-card-4">
 <img src="ofertasImagenes/fotoOferta1.jpg" style="width:100%">
 <div class="w3-container w3-white">
@@ -48,16 +49,18 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 
-<div class="formulariosize w3-third w3-section">
+<div class="w3-third w3-section">
 <div class="w3-card-4">
 <div class="w3-container w3-white">
 <p>
+	<br>
 	<h3><b>PIDE PRESUPUESTO PARA TU VIAJE</b></h3>
+	<br>
 	<p>
 		Consulta ahora el precio de tu billete y recibe el presupuesto por whatsApp o llamada telefónica.
 	</p>
-	<div class="row">
-		<form class="col s12">
+	<div class="row ">
+		<form class="col s12 ">
 			<div class="input-field col s6">
           		<input name="nombre" id="nombre" type="text" class="validate">
           		<label for="nombre">Nombre:</label>
@@ -90,9 +93,14 @@ is a UNESCO World Heritage Site.</p>
 			<div class=" col s6">
 				<label for="fechavuelta">Fecha de vuelta: </label>
           		<input name="fechavuelta" id="fechavuelta" type="date" class="validate">
+          		<br>
+          		<br>
+          		<br>
         	</div>
 			<p>
 				Recibir el presupuesto por: 
+				<br>
+				<br>
 			</p>
 			<p>
 				<label>
@@ -104,7 +112,6 @@ is a UNESCO World Heritage Site.</p>
 					<span>Llamada telefónica</span>
 				</label>	
 			</p>
-			
 			<br>
 			<br>
 			<input type="submit" name="consultar" value="Consultar" class="waves-effect waves-light btn">
@@ -115,7 +122,7 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 
-<div class=" divOfertas2 w3-third w3-section">
+<div class="w3-third w3-section">
 <div class="w3-card-4">
 <img src="ofertasImagenes/fotoOferta2.jpg" style="width:100%">
 <div class="w3-container w3-white">
@@ -150,7 +157,7 @@ is a UNESCO World Heritage Site.</p>
 
 <div class="w3-third w3-section">
 <div class="w3-card-4">
-	<iframe  width="590" height="485" src="https://www.youtube.com/embed/-JGanqjhYJk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe  width="100%" height="485" src="https://www.youtube.com/embed/-JGanqjhYJk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="w3-container w3-white">
 </div>
 </div>
