@@ -57,7 +57,7 @@ is a UNESCO World Heritage Site.</p>
 		Consulta ahora el precio de tu billete y recibe el presupuesto por whatsApp o llamada telefónica.
 	</p>
 	<div class="row">
-		<form class="col s12">
+		<form class="col s12"  method="get" action="correo.php">
 			<div class="input-field col s6">
           		<input name="nombre" id="nombre" type="text" class="validate">
           		<label for="nombre">Nombre:</label>
@@ -96,11 +96,11 @@ is a UNESCO World Heritage Site.</p>
 			</p>
 			<p>
 				<label>
-					<input type="radio" name="grupo1">
+					<input type="radio" value="whatsapp" name="grupo1">
 					<span>WhatsApp</span>  
 				</label>
 				<label>
-					<input type="radio" name="grupo1">
+					<input type="radio" value="llamada" name="grupo1">
 					<span>Llamada telefónica</span>
 				</label>	
 			</p>
@@ -114,6 +114,15 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 </div>
+<?php
+  Include ("correo.php");
+   if(isset($_POST["consultar"])){
+    enviarcorreo();
+
+   }
+
+
+?>
 
 <div class=" divOfertas2 w3-third w3-section">
 <div class="w3-card-4">
