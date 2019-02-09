@@ -28,7 +28,7 @@
 		};-*/
 		$correo = "marcosav1996@gmail.com";
 		$titulo = "Consulta Presupuesto";
-		$mensaje = "Nombre: ".$nombre."<br>"."Apellidos; ".$apellido;
+		$mensaje = "Nombre: ".$nombre;
 		mail($correo,$titulo,$mensaje);
 		header("Location:inicio.php");
 			
