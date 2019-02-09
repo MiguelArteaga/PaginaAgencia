@@ -121,15 +121,6 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 </div>
-<?php
-   if(isset($_GET["consultar"])){
-     Include ("correo.php");
-    enviarcorreo();
-
-   }
-
-
-?>
 
 <div class="w3-third w3-section">
 <div class="w3-card-4">

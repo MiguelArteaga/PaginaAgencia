@@ -52,6 +52,7 @@
 		mail($correo,$titulo,$mensaje);
 			
 	}
+	 enviarcorreo();
 
 
  ?>
