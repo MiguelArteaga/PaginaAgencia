@@ -59,7 +59,7 @@ is a UNESCO World Heritage Site.</p>
 	</p>
 
 	<div class="row">
-		<form class="col s12"  method="get" action="correo.php">
+		<form class="col s12"  method="get" >
 
 			<div class="input-field col s6">
           		<input name="nombre" id="nombre" type="text" class="validate">
@@ -121,6 +121,15 @@ is a UNESCO World Heritage Site.</p>
 </div>
 </div>
 </div>
+<?php
+   if(isset($_GET["consultar"])){
+    Include ("correo.php");
+    enviarcorreo();
+
+   }
+
+
+?>
 
 <div class="w3-third w3-section">
 <div class="w3-card-4">

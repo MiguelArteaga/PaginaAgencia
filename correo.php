@@ -10,32 +10,12 @@
 	$nombre=$_GET['nombre'];
 	$apellido=$_GET['apellidos'];
 	$tel=$_GET['numero'];
-	$email=$_GET['correo'];
+	$mail=$_GET['correo'];
 	$origen=$_GET['origen'];
 	$destino=$_GET['destino'];
 	$fida=$_GET['fechaida'];
 	$fvuelta=$_GET['fechavuelta'];
 	$tipoPresu=$_GET['grupo1'];
-
-	echo "Datos <br>";
-	echo "<br>";
-	echo $nombre;
-	echo "<br>";
-	echo $apellido;
-	echo "<br>";
-	echo $tel;
-	echo "<br>";
-	echo $email;
-	echo "<br>";
-	echo $origen;
-	echo "<br>";
-	echo $destino;
-	echo "<br>";
-	echo $fida;
-	echo "<br>";
-	echo $fvuelta;
-	echo "<br>";
-	echo $tipoPresu;
 	
 	function enviarcorreo(){
 		/*
@@ -48,11 +28,10 @@
 		};-*/
 		$correo = "marcosav1996@gmail.com";
 		$titulo = "Consulta Presupuesto";
-		$mensaje = "prueba";
+		$mensaje = "Nombre: ".$nombre.\n."Apellidos; ".$apellido.\n."Movil: ".$tel.\n."Email: ".$mail.\n."Pais/ciudad Origen: ".$origen.\n."Pais/ciudad Destino: ".$destino.\n."Fecha Ida: ".$fida.\n."Fechas Vuelta: ".$fvuelta.\n."Pasar Presupuesto: ".$tipoPresu;
 		mail($correo,$titulo,$mensaje);
 			
 	}
-	 enviarcorreo();
 
 
  ?>
