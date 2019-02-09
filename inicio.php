@@ -150,7 +150,7 @@ is a UNESCO World Heritage Site.</p>
 
 <div class="w3-third w3-section">
 <div class="w3-card-4">
-	<iframe width="590" height="485" src="https://www.youtube.com/embed/-JGanqjhYJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe  width="590" height="485" src="https://www.youtube.com/embed/-JGanqjhYJk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="w3-container w3-white">
 </div>
 </div>
