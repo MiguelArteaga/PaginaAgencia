@@ -48,7 +48,7 @@
 		};-*/
 		$correo = "marcosav1996@gmail.com";
 		$titulo = "Consulta Presupuesto";
-		$mensaje = "Nombre: ".$nombre.\n."Apellidos; ".$apellido.\n."Movil: ".$tel.\n."Email: ".$mail.\n."Pais/ciudad Origen: ".$origen.\n."Pais/ciudad Destino: ".$destino.\n."Fecha Ida: ".$fida.\n."Fechas Vuelta: ".$fvuelta.\n."Pasar Presupuesto: ".$tipoPresu;
+		$mensaje = "prueba";
 		mail($correo,$titulo,$mensaje);
 			
 	}
