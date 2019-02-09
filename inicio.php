@@ -185,7 +185,7 @@ is a UNESCO World Heritage Site.</p>
 <div class="clasefooter">
 <b>Atención los 365 días del año
 <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png" height="35px" width="40px">
-Tel. +34 634 798 138
+Tel.<b> +34 634 798 138 </b>
 <img src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png" height="40px" width="40px">
 Universo Travels
 </b>
