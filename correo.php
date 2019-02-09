@@ -10,7 +10,7 @@
 	$nombre=$_GET['nombre'];
 	$apellido=$_GET['apellidos'];
 	$tel=$_GET['numero'];
-	$mail=$_GET['correo'];
+	$email=$_GET['correo'];
 	$origen=$_GET['origen'];
 	$destino=$_GET['destino'];
 	$fida=$_GET['fechaida'];
@@ -25,7 +25,7 @@
 	echo "<br>";
 	echo $tel;
 	echo "<br>";
-	echo $mail;
+	echo $email;
 	echo "<br>";
 	echo $origen;
 	echo "<br>";
