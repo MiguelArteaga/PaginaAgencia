@@ -7,7 +7,14 @@
 
 </body>
 <?php
-	
+	$servername = "localhost";
+	$username = "miguel";
+	$password = "miguel123";
+	$dbname = "agencia";
+
+
+
+	$conn = new mysqli($servername, $username, $password, $dbname);
 	
 	function enviarcorreo(){
 		$nombre=$_GET['nombre'];
@@ -31,7 +38,17 @@
 		$titulo = "Consulta Presupuesto ".$apellido;
 		$mensaje = "Nombre: ".$nombre."\n"."Apellidos; ".$apellido."\n"."Movil: ".$tel."\n"."Email: ".$mail."\n"."Pais/ciudad Origen: ".$origen."\n"."Pais/ciudad Destino: ".$destino."\n"."Fecha Ida: ".$fida."\n"."Fechas Vuelta: ".$fvuelta."\n"."Pasar Presupuesto: ".$tipoPresu;
 		mail($correo,$titulo,$mensaje);
-		header("Location:inicio.php");
+		
+
+		$sql = "INSERT INTO clientes (Nombre, Apellidos, NumeroTelefono, Correo, Origen,Destino,FechaIda,FechaVuelta,Presupuesto ) VALUES ('$nombre','$apellido','$tel','$mail','$origen','$destino','$fida','$fvuelta','$tipoPresu')";
+		if ($conn->query($sql) === TRUE) {
+		    echo "New record created successfully";
+		} else {
+		    echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+
+		$conn->close();
+		header("Location:index.php");
 			
 	}
 	enviarcorreo();

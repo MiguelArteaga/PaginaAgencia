@@ -62,37 +62,37 @@ is a UNESCO World Heritage Site.</p>
 		<form class="col s12"  method="get" action="correo.php">
 
 			<div class="input-field col s6">
-          		<input name="nombre" id="nombre" type="text" class="validate">
+          		<input name="nombre" id="nombre" type="text" class="validate" required>
           		<label for="nombre">Nombre:</label>
        		</div>
         	<div class="input-field col s6">
-          		<input name="apellidos" id="apellidos" type="text" class="validate">
+          		<input name="apellidos" id="apellidos" type="text" class="validate" required>
           		<label for="apellidos">Apellidos:</label>
         	</div>
 			<div class="input-field col s6">
-          		<input name="numero" id="numero" type="text" class="validate">
+          		<input name="numero" id="numero" type="text" class="validate" required>
           		<label for="numero">Número de teléfono:</label>
         	</div>
 			<div class="input-field col s6">
-          		<input name="correo" id="correo" type="text" class="validate">
+          		<input name="correo" id="correo" type="text" class="validate" required>
           		<label for="correo">Correo Electrónico:</label>
         	</div>
 			<div class="input-field col s6">
-          		<input name="origen" id="origen" type="text" class="validate">
+          		<input placeholder="Ciudad-País" name="origen" id="origen" type="text" class="validate" required>
           		<label for="origen">Origen del viaje:</label>
         	</div>
 			<div class="input-field col s6">
-          		<input name="destino" id="destino" type="text" class="validate">
+          		<input placeholder="Ciudad-País" value="" name="destino" id="destino" type="text" class="validate" required>
           		<label for="destino">Destino del viaje: </label>
         	</div>
 			<div class="col s6">
 				<label for="fechaida">Fecha de ida: </label>
-          		<input name="fechaida" id="fechaida" type="date" class="validate">
+          		<input name="fechaida" id="fechaida" type="date" class="validate" required>
           		
         	</div>
 			<div class=" col s6">
 				<label for="fechavuelta">Fecha de vuelta: </label>
-          		<input name="fechavuelta" id="fechavuelta" type="date" class="validate">
+          		<input name="fechavuelta" id="fechavuelta" type="date" class="validate" required>
           		<br>
           		<br>
           		<br>
